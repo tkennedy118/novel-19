@@ -15,7 +15,7 @@
     "dialect": "mysql",
     "operatorsAliases": 0
   },
-  "deployment": {
+  "production": {
     "use_env_variable": "JAWSDB_URL",
     "dialect": "mysql"
   }
