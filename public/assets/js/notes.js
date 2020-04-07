@@ -13,7 +13,6 @@ $(document).ready(() => {
     // get api key
     $.get('/api/key/algolia')
       .then((key) => {
-        console.log('KEY: ', key);
         // Initialize the places library.
         placesAutocomplete = places({
           appId: 'pl9T9H0MC1H7',
