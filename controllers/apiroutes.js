@@ -183,6 +183,7 @@ module.exports = function (app) {
 
   // Route to get Algolia api key
   app.get('/api/key/algolia', (req, res) => {
+    console.log('KEY: ', process.env.ALGOLIA_API_KEY);
     res.send(process.env.ALGOLIA_API_KEY);
   });
   
